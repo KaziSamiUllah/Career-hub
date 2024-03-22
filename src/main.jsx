@@ -7,6 +7,10 @@ import {
 } from "react-router-dom";
 import Root from './Components/Root/Root';
 import Home from './Components/Home';
+import Jobs from './Components/Jobs';
+import Applied from './Components/Applied';
+import Statistics from './Components/Statistics';
+import Blogs from './Components/Blogs';
 
 
 
@@ -20,6 +24,22 @@ children :
   {
     path:"/",
     element: <Home></Home>
+  },
+  {
+    path:"/jobs",
+    element: <Jobs></Jobs>
+  },
+  {
+    path: "/applied",
+    element: <Applied></Applied>
+  },
+  {
+    path: "/statistics",
+    element: <Statistics></Statistics>
+  },
+  {
+    path: "/blogs",
+    element: <Blogs></Blogs>
   }
 ]
 },
